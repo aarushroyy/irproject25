@@ -1,0 +1,347 @@
+{
+  "datasets": {
+    "miracl": {
+      "basic_statistics": {
+        "hindi_queries": {
+          "total_docs": 107,
+          "avg_length": 9.383177570093459,
+          "min_length": 5,
+          "max_length": 23,
+          "vocab_size": 455,
+          "total_terms": 1004,
+          "length_distribution": {
+            "0-4": 0,
+            "5-9": 63,
+            "10-19": 40,
+            "20-49": 4,
+            "50-99": 0,
+            "100+": 0
+          }
+        },
+        "hinglish_queries": {
+          "total_docs": 107,
+          "avg_length": 9.383177570093459,
+          "min_length": 5,
+          "max_length": 23,
+          "vocab_size": 455,
+          "total_terms": 1004,
+          "length_distribution": {
+            "0-4": 0,
+            "5-9": 63,
+            "10-19": 40,
+            "20-49": 4,
+            "50-99": 0,
+            "100+": 0
+          }
+        },
+        "documents": {
+          "total_docs": 8000,
+          "avg_length": 88.52875,
+          "min_length": 1,
+          "max_length": 2170,
+          "vocab_size": 70842,
+          "total_terms": 708230,
+          "length_distribution": {
+            "0-4": 185,
+            "5-9": 375,
+            "10-19": 455,
+            "20-49": 1713,
+            "50-99": 2625,
+            "100+": 2647
+          }
+        }
+      },
+      "language_patterns": {
+        "documents": {
+          "hindi_script_docs": 32,
+          "english_script_docs": 0,
+          "mixed_script_docs": 68,
+          "avg_hindi_ratio": 0,
+          "common_hindi_words": [
+            "में",
+            "के",
+            "की",
+            "है।",
+            "से",
+            "का",
+            "को",
+            "है",
+            "हैं।",
+            "पर"
+          ],
+          "common_english_words": [
+            "overcome",
+            "some",
+            "hum",
+            "honge",
+            "kamyab",
+            "lyrics",
+            "iast"
+          ]
+        },
+        "hindi_queries": {
+          "hindi_script_docs": 45,
+          "english_script_docs": 0,
+          "mixed_script_docs": 55,
+          "avg_hindi_ratio": 0,
+          "common_hindi_words": [
+            "है?",
+            "का",
+            "में",
+            "की",
+            "के",
+            "को",
+            "से",
+            "एक",
+            "पर",
+            "है"
+          ],
+          "common_english_words": []
+        },
+        "hinglish_queries": {
+          "hindi_script_docs": 45,
+          "english_script_docs": 0,
+          "mixed_script_docs": 55,
+          "avg_hindi_ratio": 0,
+          "common_hindi_words": [
+            "है?",
+            "का",
+            "में",
+            "की",
+            "के",
+            "को",
+            "से",
+            "एक",
+            "पर",
+            "है"
+          ],
+          "common_english_words": []
+        }
+      },
+      "relevance_analysis": {
+        "total_queries": 107,
+        "avg_relevant_docs": 1.4018691588785046,
+        "min_relevant_docs": 1,
+        "max_relevant_docs": 5,
+        "queries_with_1_rel": 79,
+        "queries_with_multiple_rel": 28
+      },
+      "vocabulary_overlap": {
+        "hindi_queries_vs_docs": {
+          "query_vocab_size": 455,
+          "document_vocab_size": 70842,
+          "overlap_terms": 411,
+          "query_only_terms": 44,
+          "document_only_terms": 70431,
+          "overlap_percentage": 90.32967032967034
+        },
+        "hinglish_queries_vs_docs": {
+          "query_vocab_size": 455,
+          "document_vocab_size": 70842,
+          "overlap_terms": 411,
+          "query_only_terms": 44,
+          "document_only_terms": 70431,
+          "overlap_percentage": 90.32967032967034
+        }
+      },
+      "retrieval_performance": {
+        "hindi": {
+          "metrics": {
+            "recall_at_1": 0.3364485981308411,
+            "ndcg_at_1": 0.3364485981308411,
+            "recall_at_3": 0.4953271028037383,
+            "ndcg_at_3": 0.39415529476965827,
+            "recall_at_5": 0.5607476635514018,
+            "ndcg_at_5": 0.42753480157416224,
+            "recall_at_10": 0.6542056074766355,
+            "ndcg_at_10": 0.4675125569253146,
+            "recall_at_20": 0.719626168224299,
+            "accuracy_at_1": 0.3364485981308411,
+            "mrr": 0.4428482083855917
+          },
+          "analysis": {
+            "avg_retrieved_per_query": 20.0,
+            "queries_with_no_results": 0,
+            "queries_with_relevant_in_top1": 36,
+            "queries_with_relevant_in_top5": 60,
+            "queries_with_relevant_in_top10": 70
+          }
+        },
+        "hinglish": {
+          "metrics": {
+            "recall_at_1": 0.3364485981308411,
+            "ndcg_at_1": 0.3364485981308411,
+            "recall_at_3": 0.4953271028037383,
+            "ndcg_at_3": 0.39415529476965827,
+            "recall_at_5": 0.5607476635514018,
+            "ndcg_at_5": 0.42753480157416224,
+            "recall_at_10": 0.6542056074766355,
+            "ndcg_at_10": 0.4675125569253146,
+            "recall_at_20": 0.719626168224299,
+            "accuracy_at_1": 0.3364485981308411,
+            "mrr": 0.4428482083855917
+          },
+          "analysis": {
+            "avg_retrieved_per_query": 20.0,
+            "queries_with_no_results": 0,
+            "queries_with_relevant_in_top1": 36,
+            "queries_with_relevant_in_top5": 60,
+            "queries_with_relevant_in_top10": 70
+          }
+        }
+      }
+    },
+    "phinc": {
+      "basic_statistics": {
+        "hinglish_queries": {
+          "total_docs": 1000,
+          "avg_length": 13.5,
+          "min_length": 3,
+          "max_length": 40,
+          "vocab_size": 5044,
+          "total_terms": 13500,
+          "length_distribution": {
+            "0-4": 40,
+            "5-9": 323,
+            "10-19": 428,
+            "20-49": 209,
+            "50-99": 0,
+            "100+": 0
+          }
+        },
+        "documents": {
+          "total_docs": 1000,
+          "avg_length": 12.502,
+          "min_length": 1,
+          "max_length": 44,
+          "vocab_size": 4277,
+          "total_terms": 12502,
+          "length_distribution": {
+            "0-4": 74,
+            "5-9": 326,
+            "10-19": 428,
+            "20-49": 172,
+            "50-99": 0,
+            "100+": 0
+          }
+        }
+      },
+      "language_patterns": {
+        "documents": {
+          "hindi_script_docs": 0,
+          "english_script_docs": 2,
+          "mixed_script_docs": 98,
+          "avg_hindi_ratio": 0,
+          "common_hindi_words": [],
+          "common_english_words": [
+            "is",
+            "the",
+            "you",
+            "to",
+            "i",
+            "of",
+            "are",
+            "will",
+            "a",
+            "and"
+          ]
+        },
+        "hinglish_queries": {
+          "hindi_script_docs": 0,
+          "english_script_docs": 1,
+          "mixed_script_docs": 99,
+          "avg_hindi_ratio": 0,
+          "common_hindi_words": [],
+          "common_english_words": [
+            "hai",
+            "se",
+            "nahi",
+            "kar",
+            "ki",
+            "ke",
+            "bhi",
+            "ho",
+            "ko",
+            "to"
+          ]
+        }
+      },
+      "relevance_analysis": {
+        "total_queries": 1000,
+        "avg_relevant_docs": 1.0,
+        "min_relevant_docs": 1,
+        "max_relevant_docs": 1,
+        "queries_with_1_rel": 1000,
+        "queries_with_multiple_rel": 0
+      },
+      "vocabulary_overlap": {
+        "hinglish_queries_vs_docs": {
+          "query_vocab_size": 5044,
+          "document_vocab_size": 4277,
+          "overlap_terms": 2163,
+          "query_only_terms": 2881,
+          "document_only_terms": 2114,
+          "overlap_percentage": 42.88263283108644
+        }
+      },
+      "retrieval_performance": {
+        "hinglish": {
+          "metrics": {
+            "recall_at_1": 0.566,
+            "ndcg_at_1": 0.566,
+            "recall_at_3": 0.689,
+            "ndcg_at_3": 0.6398073968357169,
+            "recall_at_5": 0.722,
+            "ndcg_at_5": 0.6535376619929116,
+            "recall_at_10": 0.752,
+            "ndcg_at_10": 0.6634320099427695,
+            "recall_at_20": 0.77,
+            "accuracy_at_1": 0.566,
+            "mrr": 0.6358795135420138
+          },
+          "analysis": {
+            "avg_retrieved_per_query": 20.0,
+            "queries_with_no_results": 0,
+            "queries_with_relevant_in_top1": 566,
+            "queries_with_relevant_in_top5": 722,
+            "queries_with_relevant_in_top10": 752
+          }
+        }
+      }
+    }
+  },
+  "comparative_analysis": {
+    "dataset_sizes": {
+      "miracl_docs": 8000,
+      "miracl_queries": 107,
+      "phinc_docs": 1000,
+      "phinc_queries": 1000
+    },
+    "average_lengths": {
+      "miracl_doc_length": 88.52875,
+      "miracl_query_length": 9.383177570093459,
+      "phinc_doc_length": 12.502,
+      "phinc_query_length": 13.5
+    },
+    "vocabulary_sizes": {
+      "miracl_doc_vocab": 70842,
+      "phinc_doc_vocab": 4277
+    },
+    "retrieval_comparison": {
+      "miracl_hinglish_acc1": 0.3364485981308411,
+      "phinc_hinglish_acc1": 0.566,
+      "miracl_hinglish_recall10": 0.6542056074766355,
+      "phinc_hinglish_recall10": 0.752,
+      "performance_difference": 0.22955140186915884
+    }
+  },
+  "cross_script_analysis": {
+    "effectiveness_retention": 100.0,
+    "performance_drop": 0.0,
+    "recall_consistency": {
+      "recall_5_drop": 0.0,
+      "recall_10_drop": 0.0
+    }
+  },
+  "summary": {}
+}
